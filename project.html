@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="video.css">
+        <link rel="stylesheet" href="sidebar.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <div class="hamburger-menu">
+                    <img src="hamburger-menu.svg" class="hamburge-menu-image">
+                </div>
+                <div class="youtube-logo">
+                    <img src="youtube-logo.svg" class="youtube-logo-image">
+                </div>
+            </div>
+            <div class="middle-section">
+                <input type="text" placeholder="Search" class="search-bar">
+                <button class="search-button">
+                    <img src="search.svg" class="search-icon">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img src="voice-search-icon.svg" class="voice-search-icon">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-video-icon">
+                    <img src="upload.svg" class="upload-video-icon-image">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon">
+                    <img src="youtube-apps.svg" class="youtube-apps-image">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notification-icon">
+                    <img src="notifications.svg" class="notification-icon-image">
+                    <div class="notification-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <div class="my-channel-icon">
+                    <img src="my-channel.jpeg" class="my-channel-image">
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="icons">
+                <div class="home-icon">
+                    <img src="home.svg" class="home-image">
+                </div>
+                <p class="text">Home</p>
+            </div>
+            <div class="icons">
+                <div class="explore-icon">
+                    <img src="explore.svg" class="explore-image">
+                </div>
+                <p class="text">Explore</p>
+            </div>
+            <div class="icons">
+                <div class="subscriptions-icon">
+                    <img src="subscriptions.svg" class="subscriptions-image">
+                </div>
+                <p class="text">Subscriptions</p>
+            </div>
+            
+            <div class="icons">
+                <div class="orignals-icon">
+                    <img src="originals.svg" class="originals-image">
+                </div>
+                <p class="text">Originals</p>
+            </div>
+            <div class="icons">
+                <div class="youtube-music-icon">
+                    <img src="youtube-music.svg" class="youtube-music-image">
+                </div>
+                <p class="text">Youtube Music</p>
+            </div>
+            <div class="icons">
+                <div class="library-icon">
+                    <img src="library.svg" class="library-image">
+                </div>
+                <p class="text">Library</p>
+            </div>
+        </div>
+        <div class="video-grid">
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-1.webp" class="thumbnail-image">
+                    <div class="video-duration">14:20</div>
+                </div>
+                <div style="display: grid; grid-template-columns:35px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-1.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai! </p>
+                        <p class="channel-name">Marques Brownlee</p>
+                        <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-2.webp" class="thumbnail-image">
+                    <div class="video-duration">8:22</div>
+                </div>
+                <div style="display: grid; grid-template-columns:40px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-2.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Try Not To Laugh Challenge #9 </p>
+                        <p class="channel-name">Markiplier</p>
+                        <p class="video-stats">19M views &#183; 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-3.webp" class="thumbnail-image">
+                    <div class="video-duration">9:13</div>
+                </div>
+                <div style="display: grid; grid-template-columns:40px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-3.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Crazy Tik Toks Taken Before DISASTER</p>
+                        <p class="channel-name">SSSniperWolf</p>
+                        <p class="video-stats">12M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-4.webp" class="thumbnail-image">
+                    <div class="video-duration">22:09</div>
+                </div>
+                <div style="display: grid; grid-template-columns:40px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-4.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The Simples Math Problem NO One can Solve - Collatz Conjecture</p>
+                        <p class="channel-name">Veritasium</p>
+                        <p class="video-stats">18M views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-5.webp" class="thumbnail-image">
+                    <div class="video-duration">11:17</div>
+                </div>
+                <div style="display: grid; grid-template-columns:40px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-5.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Kadane's Algorithm To Maximum Sum Subarray Problem</p>
+                        <p class="channel-name">CS Dojo</p>
+                        <p class="video-stats">519K views &#183; 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <div class="thumbnail">
+                    <img src="thumbnail-6.webp" class="thumbnail-image">
+                    <div class="video-duration">19:59</div>
+                </div>
+                <div style="display: grid; grid-template-columns:40px 1fr; column-gap: 12px;margin-top: 8px;">
+                    <div class="channel">
+                        <img src="channel-6.jpeg" class="channel-image">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Anything You Can Fit In This Circle I'll Pay For It </p>
+                        <p class="channel-name">MrBeast</p>
+                        <p class="video-stats">141M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
